@@ -1,2 +1,5 @@
-# rascal-maven-plugin-issue-mre
-Minimum reproducible example for an issue in the Rascal maven plugin
+# corel-language
+
+
+## Design
+Idea to to add annotations to existing plaintext recipes, without affecting the existing structure too much.
