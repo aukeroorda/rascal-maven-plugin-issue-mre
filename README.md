@@ -1,5 +1,20 @@
 # MRE for rascal-maven-plugin issue
 
+Including `util::LanguageServer` causes an error when trying to compile.
+
+
+| rascal | rascal-maven-plugin | result |
+| ------ | ------------------- | ------ |
+| 0.28.0 | 0.16.0 | error (Message.rsc)|
+| 0.28.4 | 0.16.0 | error (Message.rsc)|
+| 0.28.0 | 0.14.5 | error (Message.rsc)|
+| 0.28.0 | 0.8.2 | error (List.rsc) |
+| 0.28.3 | 0.8.2 | error (List.rsc) |
+
+For the case using rascal-maven-plugin `0.8.2` the compilation goal `tutor` had to be removed.
+
+## Reproducing
+
 ```sh
 mvn clean compile -e
 ```
