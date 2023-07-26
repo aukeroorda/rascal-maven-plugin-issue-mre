@@ -5,6 +5,7 @@ Including `util::LanguageServer` causes an error when trying to compile.
 
 | rascal | rascal-maven-plugin | result |
 | ------ | ------------------- | ------ |
+| 0.33.0 | 0.19.13 | error (List.rsc)|
 | 0.33.0 | 0.16.0 | error (Message.rsc)|
 | 0.28.0 | 0.16.0 | error (Message.rsc)|
 | 0.28.4 | 0.16.0 | error (Message.rsc)|
